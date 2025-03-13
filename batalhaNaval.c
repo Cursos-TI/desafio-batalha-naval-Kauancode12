@@ -8,7 +8,6 @@ int main() {
     int tabuleiro[10][10];
     char linha[10] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};
     int coluna[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    int navio1 = {3}, navio2 = {3};
 
     for (int i = 0; i < 10; i++) {
 
