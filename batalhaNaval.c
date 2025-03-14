@@ -21,7 +21,7 @@ int main() {
         
     }
 
-    printf("\n");
+    printf("\n");//Pula linha.
 
     //Força o tabuleiro a ser composto completamente por zero.
     for (int i = 0; i < 10; i++) {
