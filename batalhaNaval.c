@@ -41,6 +41,14 @@ int main() {
         tabuleiro[1][navio2] = 3;
     }
 
+    for (int i = 0; i < 3; i++) {
+        tabuleiro[i][i] = 3;
+    }
+
+    for (int i = 8; i < 11; i++) {
+        tabuleiro[i][3-i] = 3;
+    }
+
     
 
     //Exibe o tabuleiro e os números a esquerda que servem de coordenadas.
