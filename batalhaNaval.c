@@ -50,6 +50,8 @@ int main() {
         tabuleiro[i][3-i] = 3;
     }
 
+
+    //Exibe as areas das habilidades por meio de loops e condições para preencher as coodernadas corretas.
     for (int i = 0; i < 3; i++) {
         for (int j = 0; j < 10; j++)
         {
@@ -67,11 +69,11 @@ int main() {
             } 
                 
                 else if (i == 1 && j >= pontoOrigem2 - 1 && j <= pontoOrigem2 + 1) {
-                tabuleiro[i + 3][j] = 1;
+                    tabuleiro[i + 3][j] = 1;
             } 
             
                 else if (i == 2 && j == pontoOrigem2) {
-                tabuleiro[i + 3][j] = 1;
+                    tabuleiro[i + 3][j] = 1;
             }
         }
     }
@@ -84,11 +86,11 @@ int main() {
             } 
                 
                 else if (i == 0 && j == pontoOrigem3) {
-                tabuleiro[i + 6][j] = 1;
+                    tabuleiro[i + 6][j] = 1;
             } 
             
                 else if (i == 2 && j == pontoOrigem3) {
-                tabuleiro[i + 6][j] = 1;
+                    tabuleiro[i + 6][j] = 1;
             }
         }
     }
